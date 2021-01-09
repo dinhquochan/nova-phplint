@@ -3,7 +3,7 @@
 **PHPLint** automatically lints all open files, then reports errors and warnings in Nova's **Issues** sidebar and the editor gutter:
 
 
-![](https://nova.app/images/en/dark/editor.png)
+![](https://raw.githubusercontent.com/dinhquochan/nova-phplint/main/stubs/example.png)
 
 ## Linter Installation
 ### Requirements
