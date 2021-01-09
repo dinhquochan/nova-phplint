@@ -1,0 +1,32 @@
+{
+    "identifier": "dinhquochan.PHPLint",
+    "name": "PHPLint",
+    "organization": "Dinh Quoc Han",
+    "description": "PHPLint for Nova.",
+    "version": "0.0.1",
+    "categories": ["issues"],
+    
+    "license": "MIT",
+    "repository": "https://github.com/dinhquochan/nova-phplint",
+    "bugs": "https://github.com/dinhquochan/nova-phplint/issues",
+    
+    "main": "main.dist.js",
+    
+    "activationEvents": [
+        "onLanguage:php"
+    ],
+    
+    "entitlements": {
+        "process": true
+    },
+    
+    "config": [
+        {
+            "key": "DinhQuocHan.PHPLint.execPath",
+            "title": "Executable Path",
+            "type": "path",
+            "description": "Manually set the path for the php executable.",
+            "placeholder": "/usr/bin/php" 
+        } 
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "nova-phplint",
+  "version": "1.0.0",
+  "description": "PHP Lint for Nova",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "onchange -i 'src/**' 'rollup.*.js' -- npm run build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "nova-npm-executable": "^0.1.1",
+    "rollup": "^2.26.11"
+  }
+}
